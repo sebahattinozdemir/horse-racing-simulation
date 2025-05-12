@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-bg: #d9898a;
+  --horse-list-bg: #f7f3a0;
+  --program-bg: #9eb2f2;
+  --results-bg: #c8f2a0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.horse-icon {
+  width: 50px;
+  height: 30px;
+}
+
+.track-lane {
+  position: relative;
+  height: 40px;
+  border-bottom: 1px dashed #666;
+}
+
+.position-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  width: 30px;
+  height: 100%;
+  background-color: #4a6741;
+}
+
+.horse-racer {
+  position: absolute;
+  transition: left 0.5s ease;
+} 
